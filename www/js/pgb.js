@@ -38,5 +38,17 @@ function checkConnection() {
     states[Connection.CELL]     = 'Cell generic connection';
     states[Connection.NONE]     = 'No network connection';
  
-    navigator.notification.alert('Connection type: ' + states[networkState]);
+ navigator.notification.alert('Connection type: ' + states[networkState]);
 }
+function wifionConnection(){
+	navigator.conection.wifi;
+}
+
+
+function wifioffConnection(){
+	navigator.conection.none;
+}
+
+
+
+
