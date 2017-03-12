@@ -41,12 +41,12 @@ function checkConnection() {
  navigator.notification.alert('Connection type: ' + states[networkState]);
 }
 function wifionConnection(){
-	navigator.conection.wifi;
+	Connection.WIFI;
 }
 
 
 function wifioffConnection(){
-	navigator.conection.none;
+	Connection.NONE;
 }
 
 
